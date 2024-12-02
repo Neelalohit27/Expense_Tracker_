@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa; /* Light neutral background */
+    display: flex;
+    align-items: flex-start; /* Align items towards the top */
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://img-cdn.pixlr.com/image-generator/history/6747421dd861d7be7fd20f6d/40ab02ab-3cd9-47f8-af62-8ad73efaa66d/preview.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #2c3e50; /* Updated text color */
+    padding-top: 50px; /* Added gap at the top of the page */
+}
+
+/* Expense Tracker Container */
+.expense-tracker {
+    max-width: 600px;
+    width: 90%;
+    background: transparent(255, 255, 255, 0.95); /* Slightly more opaque white background */
+    backdrop-filter: blur(50px);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow for more depth */
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "header"
+        "balance"
+        "form"
+        "list";
+}
+
+/* Header */
+h2 {
+    grid-area: header;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff; /* Darker header color */
+    margin: 0;
+}
+
+/* Balance Section */
+.balance-section {
+    grid-area: balance;
+    background: #ecf0f1; /* Soft gray background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.balance-section h3 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.balance-section input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    width: 100;
+    background-color: #ffffff; /* Cleaner white input background */
+}
+
+.balance-section input:focus {
+    border-color: #3498db; /* Updated focus color */
+    outline: none;
+}
+
+.balance-section button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #3498db; /* Blue for buttons */
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.balance-section button:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Form Section */
+.expense-form {
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.expense-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.expense-form input:focus {
+    border-color: #2ecc71; /* Green focus color */
+    outline: none;
+}
+
+.expense-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #2ecc71; /* Green for submit button */
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.expense-form button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+/* Expense List Section */
+.expense-list {
+    grid-area: list;
+    background: #ecf0f1; /* Soft gray background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+}
+.expense-summary{
+    color: #ffffff;
+}
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.expense-item:last-child {
+    margin-bottom: 0;
+}
+
+.expense-item span {
+    color: #34495e;
+    font-size: 14px;
+}
+
+.expense-item button {
+    border: none;
+    background-color: #e74c3c; /* Red for delete button */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.expense-pie-chart h3{
+    color:white;
+}
+.expense-pie-chart h3{
+    color:white;
+}
+.expense-item button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .expense-tracker {
+        padding: 20px;
+    }
+
+    .expense-list {
+        max-height: 150px;
+    }
+}
