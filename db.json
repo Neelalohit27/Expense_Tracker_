@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "username": "lohit ",
+      "password": "lohi",
+      "balance": "1500",
+      "expenses": [],
+      "id": "GdF3XB4"
+    },
+    {
+      "id": "9d2e",
+      "username": "Jathin735",
+      "password": "jathin007",
+      "balance": "5000",
+      "expenses": []
+    },
+    {
+      "id": "b3e3",
+      "username": "lohit07",
+      "password": "lohi07",
+      "balance": "1500",
+      "expenses": []
+    }
+  ],
+  "expenses": [
+    {
+      "id": "a754",
+      "name": "jhcbzjvjac",
+      "amount": 30,
+      "quantity": 5,
+      "userId": "e50f"
+    },
+    {
+      "id": "28cc",
+      "name": "chocolate",
+      "amount": 200,
+      "quantity": 1,
+      "userId": "aa59"
+    },
+    {
+      "id": "0326",
+      "name": "books",
+      "amount": 50,
+      "quantity": 2,
+      "userId": "aa59"
+    },
+    {
+      "id": "6561",
+      "name": "stocks",
+      "amount": 500,
+      "quantity": 1,
+      "userId": "aa59"
+    },
+    {
+      "id": "2ddd",
+      "name": "books",
+      "amount": 20,
+      "quantity": 15,
+      "userId": "aa59"
+    },
+    {
+      "id": "a206",
+      "name": "shopping",
+      "amount": 1500,
+      "quantity": 1,
+      "userId": "aa59"
+    },
+    {
+      "id": "473e",
+      "name": "hgdcbvjzsdichk",
+      "amount": 50,
+      "quantity": 10,
+      "userId": "aa59"
+    },
+    {
+      "id": "bd9f",
+      "name": "car fare",
+      "amount": 100,
+      "quantity": 8,
+      "userId": "88fd"
+    },
+    {
+      "id": "1b92",
+      "name": "hotel",
+      "amount": 5011,
+      "quantity": 5,
+      "userId": "88fd"
+    },
+    {
+      "id": "9db2",
+      "name": "car",
+      "amount": 1000,
+      "quantity": 6,
+      "userId": "88fd"
+    },
+    {
+      "name": "demo",
+      "amount": 100,
+      "quantity": 1,
+      "userId": "aa59",
+      "id": "Zb-w-Kv"
+    },
+    {
+      "name": "demo",
+      "amount": 111,
+      "quantity": 2,
+      "userId": "aa59",
+      "id": "w4j76nc"
+    },
+    {
+      "name": "chocolate",
+      "amount": 500,
+      "quantity": 10,
+      "userId": "88fd",
+      "id": "GB45uaA"
+    },
+    {
+      "name": "chocolate",
+      "amount": 501,
+      "quantity": 2,
+      "userId": "88fd",
+      "id": "tL0HshJ"
+    },
+    {
+      "name": "chocolate",
+      "amount": 1000,
+      "quantity": 2,
+      "userId": "88fd",
+      "id": "4eT1vzB"
+    }
+  ]
+}
