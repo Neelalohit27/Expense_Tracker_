@@ -1,0 +1,105 @@
+/* General Container */
+.app-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: transparent; /* Light background for better readability */
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333; /* Slightly lighter black for a softer appearance */
+    color: #ffffff;
+    font-size: 18px;
+    border-bottom: 2px solid #444; /* Subtle border to separate the navbar */
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9f9f9; /* Contrast for title */
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px; /* Improved spacing between buttons */
+}
+
+.nav-links button {
+    padding: 8px 15px;
+    border: 1px solid #ffffff; /* Added a border for a defined structure */
+    background-color: transparent; /* Transparent for a minimalistic design */
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links button:hover {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Auth Form */
+.auth-form {
+    margin: 30px auto;
+    max-width: 350px; /* Slightly wider for better usability */
+    padding: 20px;
+    background-color: transparent; /* White background for contrast */
+    backdrop-filter: blur(50px);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color:#fff;
+}
+
+.auth-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #fff ;
+    transition: border-color 0.3s ease;
+}
+
+.auth-form input:focus {
+    border-color: #007bff; /* Highlight on focus */
+    outline: none;
+}
+
+.auth-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.auth-form button:hover {
+    background-color: #555;
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
